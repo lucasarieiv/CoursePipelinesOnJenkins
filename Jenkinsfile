@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git url: 'https://github.com/krixapolinario/getting-started-app.git',
+                git url: 'https://github.com/lucasarieiv/getting-started-app.git',
                     branch: 'main'
                 sh 'ls -la'
             }
